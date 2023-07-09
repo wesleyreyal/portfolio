@@ -1,7 +1,14 @@
 import { Link } from 'react-router-dom';
 import { AllowedIcons, Icon } from '../icon';
 
-export type AllowedVariant = 'success' | 'danger' | 'ghost' | 'info' | 'warning' | 'neutral';
+export type AllowedVariant =
+  | 'success'
+  | 'danger'
+  | 'ghost'
+  | 'info'
+  | 'warning'
+  | 'neutral'
+  | 'primary';
 
 type additionalTypes = {
   variant?: AllowedVariant;
@@ -26,6 +33,8 @@ export const computeClassFromProps = ({ variant }: { variant: AllowedVariant }):
       return 'btn-ghost';
     case 'neutral':
       return 'btn-neutral';
+    case 'primary':
+      return 'btn-primary';
   }
 
   return '';

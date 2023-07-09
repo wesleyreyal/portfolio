@@ -17,6 +17,11 @@ export const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
+            <Link to={'/resume'} className='font-semibold text-lg'>
+              Resume
+            </Link>
+          </li>
+          <li>
             <Link to={'/about'} className='font-semibold text-lg'>
               About
             </Link>
@@ -49,6 +54,11 @@ export const Navbar: React.FC = () => {
             <li>
               <Link to={'/projects'} className='font-semibold text-lg'>
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link to={'/resume'} className='font-semibold text-lg'>
+                Resume
               </Link>
             </li>
             <li>

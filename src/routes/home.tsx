@@ -1,3 +1,37 @@
+import React from 'react';
+import background from '../../public/img/background.svg';
+import { BaseButton } from '~/component/common/button';
+
 export const Home: React.FC = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <div
+        className='absolute h-screen w-screen bg-center bg-cover top-0 -z-10 left-0'
+        style={{ backgroundImage: `url(${background})` }}
+      />
+      <div className='flex flex-col items-center w-fit bg-white/30 backdrop-blur-md shadow-xl py-10 px-12 mx-6 md:m-auto'>
+        <h1 className='text-7xl font-bold text-center'>Welcome to My Portfolio</h1>
+        <p className='mt-4 text-xl text-gray-600'>Explore my projects and skills</p>
+        <div className='max-w-3xl font-medium text-justify text-lg text-gray-800'>
+          <p className='mt-8'>
+            I am a third-year student pursuing a Bachelor's degree in Computer Science at the IUT de
+            Reims. Alongside my academic pursuits, I have a strong passion for American football,
+            music, and cooking. These diverse interests fuel my creativity and drive me to explore
+            new horizons both inside and outside the realm of technology.
+          </p>
+          <p className='mt-4'>
+            Currently, I am actively seeking an apprenticeship opportunity for the academic year
+            2023-2024. My goal is to gain hands-on experience and contribute to real-world projects
+            while working alongside industry professionals. I believe that this practical exposure
+            will not only augment my technical expertise but also cultivate valuable teamwork and
+            problem-solving skills.
+          </p>
+        </div>
+        <div className='m-auto flex gap-x-20 mt-6'>
+          <BaseButton text={'Explore my projects'} link={''} variant='success' />
+          <BaseButton text={'See my resume'} link={''} variant='success' />
+        </div>
+      </div>
+    </>
+  );
 };

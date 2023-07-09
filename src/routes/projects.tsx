@@ -1,6 +1,7 @@
 import { Card, CardPropsType } from '~/component/common/card';
 import algosort from '/img/algosort.png';
 import souin from '/img/souin.png';
+import portfolio from '/img/portfolio.png';
 
 const projects: CardPropsType[] = [
   {
@@ -32,7 +33,7 @@ const projects: CardPropsType[] = [
       'This portfolio represents a comprehensive display of my abilities and achievements. Through the project gallery, you can explore my past work and appreciate the diverse range of technologies I have utilized.',
       'I have invested significant effort and dedication into the creation of these projects, and I take great pride in presenting them here.',
     ],
-    img: souin,
+    img: portfolio,
     link: 'https://github.com/ReyalWesley/portfolio',
   },
 ];
