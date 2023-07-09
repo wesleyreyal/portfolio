@@ -1,7 +1,7 @@
 import { BaseButton } from '../button';
 import { AllowedBadgeLabel, Badge } from './badge';
 
-type CardPropsType = {
+export type CardPropsType = {
   technos: AllowedBadgeLabel[];
   title: string;
   description: string[];
@@ -13,7 +13,7 @@ export const Card: React.FC<CardPropsType> = ({ title, description, technos, img
   technos.sort();
   return (
     <div className='card lg:card-side bg-base-100 shadow-lg'>
-      <figure>
+      <figure className='max-w-2xl m-auto'>
         <img src={img} alt='Album' className='flex-initial' />
       </figure>
       <div className='card-body flex-1'>
@@ -25,7 +25,7 @@ export const Card: React.FC<CardPropsType> = ({ title, description, technos, img
             </p>
           );
         })}
-        <div className='flex flex-wrap gap-y-2'>
+        <div className='flex flex-wrap gap-y-2 mt-4'>
           {technos.map((label, index) => {
             return <Badge label={label} key={index} />;
           })}

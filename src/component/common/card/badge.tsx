@@ -26,10 +26,10 @@ const badgeLabel: AllowedBadgeLabel[] = [
 const badgeColor = [
   'blue',
   'gray',
-  'green',
+  'purple',
   'emerald',
   'pink',
-  'purple',
+  'green',
   'red',
   'violet',
   'indigo',

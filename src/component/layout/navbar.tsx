@@ -6,14 +6,14 @@ export const Navbar: React.FC = () => {
     <div className='navbar bg-base-100 w-full shadow-md fixed z-10'>
       <div className='navbar-start'>
         <Link className='btn btn-ghost normal-case text-xl' to={'/'}>
-          Algo sort
+          Reyal Wesley
         </Link>
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal px-1'>
           <li>
-            <Link to={'/algos'} className='font-semibold text-lg'>
-              Algorithms
+            <Link to={'/projects'} className='font-semibold text-lg'>
+              Projects
             </Link>
           </li>
           <li>
@@ -47,8 +47,8 @@ export const Navbar: React.FC = () => {
             className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 bg-white'
           >
             <li>
-              <Link to={'/algos'} className='font-semibold text-lg'>
-                Algorithms
+              <Link to={'/projects'} className='font-semibold text-lg'>
+                Projects
               </Link>
             </li>
             <li>
