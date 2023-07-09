@@ -1,6 +1,6 @@
 import React from 'react';
 import background from '../../public/img/background.svg';
-import { BaseButton } from '~/component/common/button';
+import { LinkButton } from '~/component/common/button';
 
 export const Home: React.FC = () => {
   return (
@@ -28,8 +28,8 @@ export const Home: React.FC = () => {
           </p>
         </div>
         <div className='m-auto flex gap-x-20 mt-6'>
-          <BaseButton text={'Explore my projects'} link={''} variant='success' />
-          <BaseButton text={'See my resume'} link={''} variant='success' />
+          <LinkButton text={'Explore my projects'} link={'/projects'} variant='success' />
+          <LinkButton text={'See my resume'} link={'/resume'} variant='success' />
         </div>
       </div>
     </>

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { BaseButton } from '../common/button';
+import { LinkButton } from '../common/button';
 
 export const Navbar: React.FC = () => {
   return (
@@ -68,7 +68,7 @@ export const Navbar: React.FC = () => {
             </li>
           </ul>
         </div>
-        <BaseButton text='Reyal Wesley' icon='github' link='https://github.com/ReyalWesley' />
+        <LinkButton text='Reyal Wesley' icon='github' link='https://github.com/ReyalWesley' blank />
       </div>
     </div>
   );
