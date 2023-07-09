@@ -40,10 +40,10 @@ const projects: CardPropsType[] = [
 
 export const Projects: React.FC = () => {
   return (
-    <>
+    <div className='flex flex-col gap-y-12'>
       {projects.map((props, index) => {
         return <Card {...props} key={index} />;
       })}
-    </>
+    </div>
   );
 };

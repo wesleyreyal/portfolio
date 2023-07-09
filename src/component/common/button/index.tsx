@@ -68,7 +68,7 @@ export const BaseButton: React.FC<ButtonType> = ({
 }) => (
   <button
     type={type}
-    className={`btn ${computeClassFromProps({ variant })} ${className} text-white`}
+    className={`btn ${computeClassFromProps({ variant })} ${className} text-white flex flex-nowrap`}
     {...props}
   >
     {icon && <Icon name={icon} className='text-inherit' size={24} />}
