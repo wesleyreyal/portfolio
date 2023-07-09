@@ -14,10 +14,10 @@ export const Home: React.FC = () => {
         <p className='mt-4 text-xl text-gray-600'>Explore my projects and skills</p>
         <div className='max-w-3xl font-medium text-justify text-lg text-gray-800'>
           <p className='mt-8'>
-            I am a third-year student pursuing a Bachelor's degree in Computer Science at the IUT de
-            Reims. Alongside my academic pursuits, I have a strong passion for American football,
-            music, and cooking. These diverse interests fuel my creativity and drive me to explore
-            new horizons both inside and outside the realm of technology.
+            I am a third-year student pursuing a Bachelor&apos;s degree in Computer Science at the
+            IUT de Reims. Alongside my academic pursuits, I have a strong passion for American
+            football, music, and cooking. These diverse interests fuel my creativity and drive me to
+            explore new horizons both inside and outside the realm of technology.
           </p>
           <p className='mt-4'>
             Currently, I am actively seeking an apprenticeship opportunity for the academic year

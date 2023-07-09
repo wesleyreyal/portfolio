@@ -45,7 +45,11 @@ export const OutlinedButton: React.FC<ButtonType> = (props) => (
   <BaseButton {...props} className={`btn-outline ${props.className}`} />
 );
 
-export const LinkButton: React.FC<ButtonType & { blank?: boolean, link: string }> = ({ blank, link, ...props }) => {
+export const LinkButton: React.FC<ButtonType & { blank?: boolean; link: string }> = ({
+  blank,
+  link,
+  ...props
+}) => {
   const target = blank ? '_blank' : undefined;
   return (
     <Link to={link} target={target}>
