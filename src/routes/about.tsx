@@ -1,6 +1,6 @@
 export const About: React.FC = () => {
   return (
-    <article className='prose prose-lg m-auto'>
+    <article className='prose prose-lg m-auto text-justify'>
       <h1 className='text-center'>Terms of Use</h1>
       <p>
         Welcome to our website. Please read these terms and conditions carefully before using the
@@ -52,7 +52,7 @@ export const About: React.FC = () => {
       <h2>Contact Information</h2>
       <p>
         If you have any questions or concerns regarding these terms of use, please contact us at:{' '}
-        <span className='ml-6'>reyal.wesley@gmail.com</span>.
+        <span className='ml-6 font-bold text-rose-400'>reyal.wesley@gmail.com</span>.
       </p>
     </article>
   );
