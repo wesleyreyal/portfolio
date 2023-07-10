@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Container, Navbar } from './component/layout';
 
 import './App.css';
-import { Projects, Home, About } from './routes';
+import { Projects, Home, About, Resume } from './routes';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         >
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/resume' element={<Resume />} />
           <Route path='/about' element={<About />} />
           <Route path='*' element={<Home />} />
         </Route>
