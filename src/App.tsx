@@ -1,10 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import { Container, Navbar } from './component/layout';
-import { Home } from './routes/home';
-import { Projects } from './routes/projects';
-import { About } from './routes/about';
 
 import './App.css';
+import { Projects, Home, About } from './routes';
 
 function App() {
   return (
