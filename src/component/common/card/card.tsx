@@ -1,4 +1,4 @@
-import { BaseButton } from '../button';
+import { LinkButton } from '../button';
 import { AllowedBadgeLabel, Badge } from './badge';
 
 export type CardPropsType = {
@@ -32,7 +32,7 @@ export const Card: React.FC<CardPropsType> = ({ title, description, technos, img
         </div>
 
         <div className='card-actions justify-end mt-2'>
-          <BaseButton text={'browse code'} icon={'github'} link={link} />
+          <LinkButton text={'browse code'} icon={'github'} link={link} blank />
         </div>
       </div>
     </div>
