@@ -1,5 +1,6 @@
 import { LinkButton } from '../button';
 import { AllowedBadgeLabel, Badge } from './badge';
+import React from 'react';
 
 export type CardPropsType = {
   technos: AllowedBadgeLabel[];

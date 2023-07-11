@@ -1,10 +1,10 @@
-import cv from 'public/img/cv.png';
+import cv from '/img/cv.png';
 import { BaseButton } from '~/component/common/button';
+import React from 'react';
 
 export const Resume: React.FC = () => {
   const handleDownload = () => {
-    // Logique pour le téléchargement du fichier
-    const downloadUrl = 'public/img/cv.pdf'; // Chemin vers le fichier dans le dossier public
+    const downloadUrl = 'public/img/cv.pdf';
     window.open(downloadUrl, '_blank');
   };
   return (
