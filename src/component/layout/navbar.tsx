@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { LinkButton } from '../common/button';
+import React from 'react';
 
 export const Navbar: React.FC = () => {
   return (
@@ -49,7 +50,7 @@ export const Navbar: React.FC = () => {
           </div>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 bg-white'
+            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-white'
           >
             <li>
               <Link to={'/projects'} className='font-semibold text-lg'>

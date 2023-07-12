@@ -2,6 +2,7 @@ import { Card, CardPropsType } from '~/component/common/card';
 import algosort from '/img/algosort.png';
 import souin from '/img/souin.png';
 import portfolio from '/img/portfolio.png';
+import React from 'react';
 
 const projects: CardPropsType[] = [
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '../../public/img/background.svg';
+import background from '/img/background.svg';
 import { LinkButton } from '~/component/common/button';
 
 export const Home: React.FC = () => {
