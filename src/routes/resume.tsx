@@ -7,6 +7,7 @@ export const Resume: React.FC = () => {
     const downloadUrl = 'public/img/cv.pdf';
     window.open(downloadUrl, '_blank');
   };
+  
   return (
     <>
       <div className='w-full flex justify-center'>
