@@ -13,7 +13,8 @@ const projects: CardPropsType[] = [
       "It's worth noting that the project is an ongoing endeavor, and I plan to continually enhance it by introducing upgrades, new features, and addressing any identified issues. As time permits, I will be adding additional sorting algorithms and expanding the platform's capabilities. Stay tuned for future updates and improvements!",
     ],
     img: algosort,
-    link: 'https://github.com/ReyalWesley/algo-sort',
+    gitLink: 'https://github.com/ReyalWesley/algo-sort',
+    link: 'https://algo-sort-zekave.netlify.app/',
   },
   {
     technos: ['docker', 'api platform', 'next js', 'react js', 'symfony', 'tailwind', 'typescript'],
@@ -24,7 +25,8 @@ const projects: CardPropsType[] = [
       'This project integrated me in the open-source web development and enables me to upgrade my coding skills on many aspects',
     ],
     img: souin,
-    link: 'https://github.com/ReyalWesley/httpcache',
+    gitLink: 'https://github.com/ReyalWesley/httpcache',
+    link: 'https://souin.io/',
   },
   {
     technos: ['react js', 'tailwind', 'typescript', 'vite'],
@@ -35,7 +37,8 @@ const projects: CardPropsType[] = [
       'I have invested significant effort and dedication into the creation of these projects, and I take great pride in presenting them here.',
     ],
     img: portfolio,
-    link: 'https://github.com/ReyalWesley/portfolio',
+    gitLink: 'https://github.com/ReyalWesley/portfolio',
+    link: 'https://zekave.fr/',
   },
 ];
 
