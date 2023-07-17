@@ -14,7 +14,7 @@ const projects: CardPropsType[] = [
     ],
     img: algosort,
     gitLink: 'https://github.com/ReyalWesley/algo-sort',
-    link: '/projects/algo-sort',
+    link: 'https://algo-sort-zekave.netlify.app/',
   },
   {
     technos: ['docker', 'api platform', 'next js', 'react js', 'symfony', 'tailwind', 'typescript'],
