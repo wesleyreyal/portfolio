@@ -5,4 +5,12 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+  server: {
+    watch: {
+      usePolling: true,
+    },
+    host: '0.0.0.0',
+    strictPort: true,
+    port: 3000,
+  },
 });
